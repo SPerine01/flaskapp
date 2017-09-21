@@ -6,7 +6,10 @@
 
 </head>
 <body>
+		<!-- { and % is Jinja template, this is for logic -->
+	<!-- brings in the partial for the nav bar -->
 	{% include 'includes/_navbar.html' %}
+
 	<div class="container">
 		{% block body %}
 		{% endblock %}
